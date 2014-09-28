@@ -95,3 +95,21 @@ vdhulappanavar@demo-project:~/workspace (master) $
 ------------------------------------------------------------
 Step 2 : 
 -------------------------------------------------------------
+
+vdhulappanavar@demo-project:~/workspace (master) $ git add -A
+vdhulappanavar@demo-project:~/workspace (master) $ git commit -m "Second Version"
+[master 9b5075e] Second Version
+ 3 files changed, 99 insertions(+), 2 deletions(-)
+ rewrite .c9/metadata/workspace/GIT_README.md (92%)
+vdhulappanavar@demo-project:~/workspace (master) $ git push -u vidya_githuborigin master
+Username for 'https://github.com': vdhulappanavar
+Password for 'https://vdhulappanavar@github.com': 
+Counting objects: 15, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 3.09 KiB | 0 bytes/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+To https://github.com/vdhulappanavar/cloud9_projects.git
+   34308f7..9b5075e  master -> master
+Branch master set up to track remote branch master from vidya_githuborigin.
+vdhulappanavar@demo-project:~/workspace (master) $ 
